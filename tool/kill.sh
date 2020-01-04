@@ -1,0 +1,1 @@
+yarn application -list|grep template|awk '{print $1}'|xargs yarn application -kill
